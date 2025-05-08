@@ -10,7 +10,7 @@ const targetAdIds = [
   "PR-25-012799_TATAIPL2025_IPL18_IPL18BHOJPURI20sBHOmob_Hindi_VCTA_20"
 ];
 
-const MUTE_ALL_ADS = false; // Set to true to mute all ads
+const MUTE_ALL_ADS = true; // Set to true to mute all ads
 
 const durationRegexes = [
   /(\d{1,3})s(?:Eng(?:lish)?|Hin(?:di)?)/i,      // "20sEng", "15sHindi", "10sHin"
